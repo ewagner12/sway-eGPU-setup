@@ -5,10 +5,14 @@ Manages setting of the WLR_DRM_DEVICES environment variable based on cards found
 
 From the downloaded location, make sure it's executable by doing:
 
-chmod +x sway_setup.sh
+```chmod +x sway_setup.sh```
 
 Move things into place and enable the service to start on bootup:
 
+```
 sudo cp sway_setup.sh /usr/bin/
+
 sudo cp sway-start.service /etc/systemd/system
+
 systemctl enable sway-start
+```
