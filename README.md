@@ -1,7 +1,7 @@
 # sway-eGPU-setup
 Manages setting of the WLR_DRM_DEVICES environment variable based on cards found by udevadm.
 
-##Installation
+## Installation
 I finally added a Makefile! To install the most recent version, just download the repo and from the downloaded directory:
 
 ```
