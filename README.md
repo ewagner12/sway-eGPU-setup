@@ -1,3 +1,5 @@
+> Note: This repository is provided as-is for those who find it useful. However, for my personal use case, I have moved on to my newer, desktop-agnostic [all-ways-egpu](https://github.com/ewagner12/all-ways-egpu) script (Yes, it works with Sway too!). Thus, this project may not get updated to address future changes in wlroots such as [this](https://github.com/swaywm/wlroots/pull/2752).
+
 # sway-eGPU-setup
 Manages setting of the WLR_DRM_DEVICES environment variable based on cards found by udevadm.
 
